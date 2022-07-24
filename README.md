@@ -1,3 +1,8 @@
+npm install for node  modules
+
+npm start
+
+
 two problems, notifications is not working and user cannot see what other user sends in private messages.
 Sorry im new to full stack and need to learn more, i just started backend a literal a week ago. 
 I mainly specialized frontend things.
