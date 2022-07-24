@@ -1,3 +1,7 @@
+two problems, notifications is not working and user cannot see what other user sends in private messages.
+Sorry im new to full stack and need to learn more, i just started backend a literal a week ago. 
+I mainly specialized frontend things.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
