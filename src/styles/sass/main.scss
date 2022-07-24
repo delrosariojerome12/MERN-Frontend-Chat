@@ -1,0 +1,14 @@
+@import "./util/resets";
+@import "./util/variable";
+@import "./components/navbar";
+@import "./pages/home";
+@import "./pages/login";
+@import "./pages/signup";
+@import "./pages/chat";
+.container {
+  font-family: $primary-font;
+  min-height: 100vh;
+  padding: 67px 0px 0px 0px;
+  display: grid;
+  grid-template-rows: minmax(70vh, auto);
+}

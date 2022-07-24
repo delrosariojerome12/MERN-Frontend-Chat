@@ -1,0 +1,77 @@
+@import "../util/variable";
+
+.navbar {
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: auto;
+  padding: 1rem 1.5rem;
+  background-color: #d5a752;
+  z-index: 99;
+  height: 67px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+  ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+    a {
+      padding: 10px 15px;
+      // background-color: $secondary-bg-color;
+      color: #eee;
+    }
+    img {
+      height: 32px;
+      width: 32px;
+      border-radius: 50%;
+    }
+    .dropbtn {
+      background-color: #d5a752;
+      padding: 16px;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      right: 0%;
+      background-color: #f9f9f9;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      z-index: 1;
+    }
+
+    .dropdown-content button {
+      color: black;
+      padding: 10px 15px;
+      text-decoration: none;
+      display: block;
+      min-width: 90px;
+    }
+
+    .dropdown-content button:hover {
+      background-color: #f1f1f1;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    .dropdown:hover .dropbtn {
+      background-color: #94a341;
+    }
+  }
+}
